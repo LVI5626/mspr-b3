@@ -7,8 +7,25 @@
   </head>
     
   <body>
+  <div style="padding: 100px 0px; padding-top: 80px;/*background:url(https://www.skieur.com/media/2020/Janvier/festival%C2%A9scordianicolas.jpg);*/ width: 80%; margin: auto;">
+  
+  <h1 style="text-align: center; color: #000; font-size: 36px;">Bienvenue chez Nation sounds</h1></div>
         <div id="slider-home">
+          <div style="background: yellow;">
             <h1>Slider</h1>
+          </div>
+          <div style="background: yellow;">
+            <h1>Slider</h1>
+          </div>
+          <div style="background: yellow;">
+            <h1>Slider</h1>
+          </div>
+          <div style="background: yellow;">
+            <h1>Slider</h1>
+          </div>
+          <div style="background: yellow;">
+            <h1>Slider</h1>
+          </div>
         </div>
 
         <div id="news-home">
