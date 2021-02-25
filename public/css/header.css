@@ -25,7 +25,7 @@ body {
 }
 
 .main2{
-  background-image: url(../../public/img/background/background-site.png);
+  background-image: url(/img/background/background-site.png);
   background-size: 100%;
   background-position: center top; 
 }
@@ -216,7 +216,7 @@ body {
 .channel-flex{
     display: flex;
     align-items: center;
-    width: 100%;
+    /*width: 100%;*/
     margin-left: 2%;
 }
 .header-res{
