@@ -1,0 +1,22 @@
+{% extends 'partner.html.twig' %}
+
+{% block title %}Hello PartnersController!{% endblock %}
+
+{% block body %}
+    <h1>Partners index</h1>
+
+            {% for partner in partners %}
+            <tr>
+                <td>{{ partner.id }}</td>
+                <td>{{ partner.partnersName }}</td>
+                <td><img src="{{ partner.partnersPicture }}"/></td>
+                <td>{{ partner.partnersTheme }}</td>
+                <td>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="5">no records found</td>
+            </tr>
+        {% endfor %}
+{% endblock %}
